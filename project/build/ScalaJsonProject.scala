@@ -7,7 +7,7 @@ class ScalaJsonProject(info: ProjectInfo) extends StandardProject(info) with Sub
     case "2.9.1" => "org.scala-tools.testing" % "specs_2.9.1" % "1.6.9" % "test"
   }
 
-  override def subversionRepository = Some("http://svn.local.twitter.com/maven-public/")
+  override def subversionRepository = Some("https://svn.twitter.biz/maven-public")
 
   override def disableCrossPaths = false
 
